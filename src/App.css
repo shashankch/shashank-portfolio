@@ -1,0 +1,59 @@
+.header{
+  flex-direction:column;
+  align-self:start;
+  justify-self:start;
+  padding-left:1em;
+}
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.projHeading{
+ 
+  padding-left:1em;
+}
+.content{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+
+}
+.card {
+  padding: 0.4em;
+  margin:1em;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border-radius: 4px;
+}
+  .footer {
+  margin:2em;
+  padding:2em;
+ 
+
+}
+.footer img{
+  height: 25px;
+  width:25px;
+
+}
+
+.profile-icons{
+  height: 30px;
+  width: 30px;
+  padding:0.3em;
+  margin:0.5em;
+  background: white;
+  border-radius:3px;
+  }
+
+  .skill-icons{
+    height: 25px;
+    width: 25px;
+    padding:0.3em;
+    margin:0.5em;
+    background: white;
+    border-radius:3px;
+  }
