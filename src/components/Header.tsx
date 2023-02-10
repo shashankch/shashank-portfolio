@@ -43,84 +43,92 @@ function Header() {
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/html5.svg'
+              src='/static/images/html5.svg'
               alt='html5'
             />
           </a>
           <a href='https://github.com/shashankch'>
-            <img className='skill-icons' src='src/assets/css3.svg' alt='css3' />
+            <img
+              className='skill-icons'
+              src='/static/images/css3.svg'
+              alt='css3'
+            />
           </a>
 
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/javascript.svg'
+              src='/static/images/javascript.svg'
               alt='Javascript'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/typescript.svg'
+              src='/static/images/typescript.svg'
               alt='typescript'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/react.svg'
+              src='/static/images/react.svg'
               alt='React'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/reactquery.svg'
+              src='/static/images/reactquery.svg'
               alt='Tanstack/React Query'
             />
           </a>
           <a href='https://github.com/shashankch'>
-            <img className='skill-icons' src='src/assets/mui.svg' alt='mui' />
+            <img
+              className='skill-icons'
+              src='/static/images/mui.svg'
+              alt='mui'
+            />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/springboot.svg'
+              src='/static/images/springboot.svg'
               alt='spring boot microservices'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/mysql.svg'
+              src='/static/images/mysql.svg'
               alt='mysql'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/mongodb.svg'
+              src='/static/images/mongodb.svg'
               alt='mongodb'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/linux.svg'
+              src='/static/images/linux.svg'
               alt='linux'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/docker.svg'
+              src='/static/images/docker.svg'
               alt='docker'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
-              src='src/assets/kubernetes.svg'
+              src='/static/images/kubernetes.svg'
               alt='kubernetes'
             />
           </a>
@@ -130,48 +138,46 @@ function Header() {
           <a href='https://www.linkedin.com/in/shashank0705/'>
             <img
               className='profile-icons'
-              src='src/assets/linkedin.svg'
+              src='/static/images/linkedin.svg'
               alt='Linkedin Profile'
             />
           </a>
           <a href='https://twitter.com/shchande0705'>
             <img
               className='profile-icons'
-              src='src/assets/twitter.svg'
+              src='/static/images/twitter.svg'
               alt='Twitter Profile'
             />
           </a>
           <a href='mailto:shashakchandel@gmail.com'>
             <img
               className='profile-icons'
-              src='src/assets/gmail.svg'
+              src='/static/images/gmail.svg'
               alt='Gmail'
             />
           </a>
           <a href='https://github.com/shashankch'>
             <img
               className='profile-icons'
-              src='src/assets/github.svg'
+              src='/static/images/github.svg'
               alt='Github'
             />
           </a>
         </div>
       </div>
       <div>
-      <a href='https://www.linkedin.com/in/shashank0705/'> 
-        <StyledBadge
-          overlap='circular'
-          anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
-          variant='dot'
-        >
-          <Avatar
-            alt='Shashank Chandel'
-            src='src/assets/profile.jpeg'
-            sx={{ width: 56, height: 56 }}
-          />
-           
-          
-        </StyledBadge>
+        <a href='https://www.linkedin.com/in/shashank0705/'>
+          <StyledBadge
+            overlap='circular'
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+            variant='dot'
+          >
+            <Avatar
+              alt='Shashank Chandel'
+              src='/static/images/profile.jpeg'
+              sx={{ width: 56, height: 56 }}
+            />
+          </StyledBadge>
         </a>
       </div>
     </div>

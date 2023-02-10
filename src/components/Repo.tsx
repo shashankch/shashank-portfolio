@@ -10,22 +10,25 @@ function Repo(props: cardProps) {
   console.log(project);
   return (
     <div className='card'>
-
       <Card sx={{ width: 300, height: 300 }}>
-        <CardMedia component='img' alt='project peek' height='80' image='src/assets/allpurpose.jpg' />
+        <CardMedia
+          component='img'
+          alt='project peek'
+          height='80'
+          image='/static/images/allpurpose.jpg'
+        />
         <CardContent>
           <h3>{project.name}</h3>
           <p>{project.description}</p>
 
-        {/* create new components */}
-        {/* <strong>{project.languages_url}</strong>
+          {/* create new components */}
+          {/* <strong>{project.languages_url}</strong>
         <strong>{project.tags_url}</strong> */}
         </CardContent>
         <CardActions>
           <a href={project.html_url}>Github Link</a>
           <a href={project.homepage}>Deployment</a>
         </CardActions>
-
       </Card>
     </div>
   );

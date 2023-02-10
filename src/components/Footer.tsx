@@ -8,7 +8,7 @@ function Footer() {
         <strong>Created with</strong>
         <img
           style={{ margin: 0, position: 'relative', top: 6 }}
-          src='src/assets/heart.png'
+          src='/static/images/heart.png'
           alt='heart'
         ></img>
         <strong>by Shashank</strong>
