@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Social Media App",
+        "description":"Social Media Application for developers",
+        "languages":["JS"],
+        "tags":["Mongodb","Express","React","Node"],
+        "html_url":"https://github.com/shashankch/Codeial-live",
+        "homepage":"#",
+        "type":"MERN"
+
+    },
+    {
+        "name": "RentLo",
+        "description":"Complete web app to post/rent flat/house properties.",
+        "languages":["JS"],
+        "tags":["Mongodb","Express","React","Node"],
+        "html_url":"https://github.com/shashankch/RentLo-FullStack",
+        "homepage":"https://rentlo-project.herokuapp.com/",
+        "type":"MERN"
+
+    },
+    {
+        "name": "Online Classroom",
+        "description":"Web App to manage college/university assignments",
+        "languages":["JS"],
+        "tags":["Mongodb","Express","React","Node"],
+        "html_url":"https://github.com/shashankch/OnlineClassroom",
+        "homepage":"#",
+        "type":"MERN"
+
+    },
+    {
+        "name": "Bugs/Issues Tracking App",
+        "description":"Application to track project related bugs and issues",
+        "languages":["JS"],
+        "tags":["React","Redux"],
+        "html_url":"https://github.com/shashankch/Issue-Tracker",
+        "homepage":"https://happy-hamilton-d701c2.netlify.app/",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "Goals/Habits Tracking App",
+        "description":"Application to track weekly progress of habits",
+        "languages":["JS"],
+        "tags":["React","Redux"],
+        "html_url":"https://github.com/shashankch/Goals-Tracker",
+        "homepage":"https://goal-tracker-by-shashank.web.app/",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "Shopping Cart App",
+        "description":"Shopping cart component to integrate with app.",
+        "languages":["JS"],
+        "tags":["React","Redux"],
+        "html_url":"https://github.com/shashankch/Cart-App",
+        "homepage":"#",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "Movies Search Engine",
+        "description":"Application to search/view/favourite movies.",
+        "languages":["JS"],
+        "tags":["React","Redux"],
+        "html_url":"https://github.com/shashankch/Movies-App",
+        "homepage":"#",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "iPOD Music Player App",
+        "description":"clone for iPOD music player - features and design.",
+        "languages":["JS"],
+        "tags":["React","Redux","zingtouch"],
+        "html_url":"https://github.com/shashankch/iPod-App",
+        "homepage":"#",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "Personalised TODO App",
+        "description":"To add/delete/mark status and filter todo items",
+        "languages":["JS"],
+        "tags":["React","Redux"],
+        "html_url":"https://github.com/shashankch/PersonalizedTodo",
+        "homepage":"#",
+        "type":"REACT-REDUX"
+
+    },
+    {
+        "name": "Online Classroom APIs",
+        "description":"APIs exposed to manage online classroom app use case",
+        "languages":["JS"],
+        "tags":["Node","Express"],
+        "html_url":"https://github.com/shashankch/OnlineClassroom-backend",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "COVID hospital APIs",
+        "description":"APIs exposed to manage hospital management use case",
+        "languages":["JS"],
+        "tags":["Node","Express"],
+        "html_url":"https://github.com/shashankch/Covid19-Hospital-API",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "Authentication System",
+        "description":"Allows quick integration of auth in the app.",
+        "languages":["JS"],
+        "tags":["Node","Express"],
+        "html_url":"https://github.com/shashankch/AuthenticationSystem",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "HabiDaily",
+        "description":"Complete habit tracking app with MongoDB.",
+        "languages":["JS"],
+        "tags":["Node","Express","Mongodb"],
+        "html_url":"https://github.com/shashankch/HabiDaily",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "TODO App",
+        "description":"Todo application with MongoDB",
+        "languages":["JS"],
+        "tags":["Node","Express","Mongodb"],
+        "html_url":"https://github.com/shashankch/TODO-APP",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "Contact List App",
+        "description":"Manage contact details",
+        "languages":["JS"],
+        "tags":["Node","Express"],
+        "html_url":"https://github.com/shashankch/NodeWS/tree/master/contact_list",
+        "homepage":"#",
+        "type":"NODE"
+
+    },
+    {
+        "name": "Comic SuperHeroes Search Engine",
+        "description":"Search/Favourite/View Details of Superheroes",
+        "languages":["JS"],
+        "tags":["Node","Express"],
+        "html_url":"https://github.com/shashankch/SuperheroHunter",
+        "homepage":"https://shashankch.github.io/SuperheroHunter/",
+        "type":"NODE"
+
+    },
+    {
+        "name": "Music Player",
+        "description":"Music Player Web App Design using pure HTML & CSS.",
+        "languages":["HTML","CSS"],
+        "tags":["HTML","CSS"],
+        "html_url":"https://github.com/shashankch/SuperheroHunter",
+        "homepage":"https://shashankch.github.io/SuperheroHunter/",
+        "type":"HTML"
+
+    },
+    {
+        "name": "Accordion",
+        "description":"Accordion Feature",
+        "languages":["HTML","CSS"],
+        "tags":["HTML","CSS"],
+        "html_url":"https://github.com/shashankch/Accordion",
+        "homepage":"https://shashankch.github.io/Accordion/accord",
+        "type":"HTML"
+
+    },
+    {
+        "name": "Calculator App",
+        "description":"Calculator app to perform mathematical operations",
+        "languages":["HTML","CSS"],
+        "tags":["HTML","CSS"],
+        "html_url":"https://github.com/shashankch/Calculator-App",
+        "homepage":"https://shashankch.github.io/Calculator-App/",
+        "type":"HTML"
+
+    },
+    {
+        "name": "TODO List",
+        "description":"TODO app with add/delete/check/view items",
+        "languages":["HTML","CSS"],
+        "tags":["HTML","CSS"],
+        "html_url":"https://github.com/shashankch/TODO-List",
+        "homepage":"https://shashankch.github.io/TODO-List/",
+        "type":"HTML"
+
+    },
+    {
+        "name": "Face Recognition Web App",
+        "description":"Using Deep-learning & Transfer Learning",
+        "languages":["Python"],
+        "tags":["Python","Django","Keras","Dlib Resnet","Face_Recogintion API"],
+        "html_url":"https://github.com/shashankch/Facex",
+        "homepage":"#",
+        "type":"ML"
+
+    },
+    {
+        "name": "New Deals Android App",
+        "description":"To buy/sell used stuff online",
+        "languages":["Java"],
+        "tags":["Android","Java","Sqlite"],
+        "html_url":"https://github.com/shashankch/NewDeals",
+        "homepage":"#",
+        "type":"Android"
+
+    },
+    {
+        "name": "C++ Coding Problems",
+        "description":"Coding/Contest problem solutions",
+        "languages":["C++"],
+        "tags":["Data Structures","Algorithms"],
+        "html_url":"https://github.com/shashankch/DataStructures-Algorithms",
+        "homepage":"#",
+        "type":"DSA"
+
+    },
+    {
+        "name": "Java Coding Problems",
+        "description":"Coding/Contest problem solutions",
+        "languages":["Java"],
+        "tags":["Data Structures","Algorithms"],
+        "html_url":"https://github.com/shashankch/DataStructures-Algo-Java",
+        "homepage":"#",
+        "type":"DSA"
+
+    }
+]
