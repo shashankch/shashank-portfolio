@@ -5,13 +5,13 @@ function Footer() {
   return (
     <div className='footer'>
       <div>
-        <strong>Created with</strong>
+        <strong>Created with </strong>
         <img
-          style={{ margin: 0, position: 'relative', top: 6 }}
+          style={{ margin: 0, position: 'relative', top: 7 }}
           src='/static/images/heart.png'
           alt='heart'
         ></img>
-        <strong>by Shashank</strong>
+        <strong> by Shashank</strong>
       </div>
 
       <div style={{ textAlign: 'center' }}>2023-24</div>
