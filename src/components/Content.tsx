@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Box from '@mui/material/Box';
 import Projects from '../assets/data.json';
-
+import CircularProgress from '@mui/material/CircularProgress';
 interface TabPanelProps {
   children?: React.ReactNode;
   dir?: string;
@@ -55,7 +55,7 @@ function Content() {
   const handleChangeIndex = (index: number) => {
     setValue(index);
   };
-  const { isLoading, error, data } = useQuery({
+  const { isLoading,isFetching, error, data } = useQuery({
     queryKey: ['shashankGitRepoData'],
     queryFn: () =>
       fetch('https://api.github.com/users/shashankch/repos').then((res) =>
@@ -63,9 +63,24 @@ function Content() {
       ),
   });
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading || isFetching)
+    return (
+      <div>
+      <div>
+        <CircularProgress color='secondary' />
+      </div>
+    Loading...
+      </div>
 
-  if (error) return <div>{'An error has occurred: ' + error}</div>;
+    );
+
+  if (error) return <div>{'Oh no! Something went wrong. '} 
+  <a
+  href='https://shashankch.github.io/shashankch/'
+  style={{ color: 'blue' }}
+>
+  Go To Old Site
+</a></div>;
   return (
     <>
       <div className='projHeading'>
@@ -90,65 +105,91 @@ function Content() {
                 variant='scrollable'
                 scrollButtons='auto'
                 aria-label='projects tabs'
-                
               >
-                <Tab label='MERN Apps' {...a11yProps(0)} className='accordion-details'/>
+                <Tab
+                  label='MERN Apps'
+                  {...a11yProps(0)}
+                  className='accordion-details'
+                />
                 <Tab label='React-Redux' {...a11yProps(1)} />
                 <Tab label='Vanilla JS & Node/Express' {...a11yProps(2)} />
                 <Tab label='Pure HTML5 & CSS3 ' {...a11yProps(3)} />
-                <Tab label='Machine Learning - Python & Django' {...a11yProps(5)}/>
+                <Tab
+                  label='Machine Learning - Python & Django'
+                  {...a11yProps(5)}
+                />
                 <Tab label='Android App Development' {...a11yProps(6)} />
                 <Tab label='Data Structures and Algorithms' {...a11yProps(7)} />
               </Tabs>
               <TabPanel value={value} index={0}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'MERN' && <Repo key={proj.id} project={proj} />
-            ))}
-              </div>
-
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'MERN' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={1}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'REACT-REDUX' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'REACT-REDUX' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={2}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'NODE' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'NODE' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={3}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'HTML' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'HTML' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={4}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'ML' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'ML' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={5}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'Android' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'Android' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
               <TabPanel value={value} index={6}>
-              <div className='content'>
-              {Projects.map((proj: any) => (
-              proj.type === 'DSA' && <Repo key={proj.id} project={proj} />
-            ))}
-            </div>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'DSA' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
               </TabPanel>
             </Box>
           </AccordionDetails>
