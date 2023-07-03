@@ -39,7 +39,7 @@ function Header() {
         <h2>Software Engineer - Full Stack</h2>
 
         <div>
-          <h3>Skills</h3>
+          <h3>Tech Skills</h3>
           <a href='https://github.com/shashankch'>
             <img
               className='skill-icons'
@@ -132,6 +132,8 @@ function Header() {
               alt='kubernetes'
             />
           </a>
+          <span>...etc</span>
+          
         </div>
         <div>
           <h3>Connect</h3>
