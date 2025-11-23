@@ -93,7 +93,7 @@ function Content() {
             aria-controls='panel1a-content'
             id='panel1a-header'
           >
-            <Typography>My Major Projects</Typography>
+            <Typography>Selected Projects</Typography>
           </AccordionSummary>
           <AccordionDetails className='content'>
             <Box sx={{ width: '100%' }}>
@@ -107,25 +107,35 @@ function Content() {
                 aria-label='projects tabs'
               >
                 <Tab
-                  label='MERN Apps'
+                  label='MERN-Apps'
                   {...a11yProps(0)}
                   className='accordion-details'
                 />
-                <Tab label='React-Redux' {...a11yProps(1)} />
-                <Tab label='Vanilla JS & Node/Express' {...a11yProps(2)} />
-                <Tab label='Pure HTML5 & CSS3 ' {...a11yProps(3)} />
+                <Tab label='React/Redux' {...a11yProps(1)} />
+                <Tab label='VanillaJS-&-Node/Express' {...a11yProps(2)} />
+                <Tab label='Pure-HTML5/CSS3 ' {...a11yProps(3)} />
                 <Tab
-                  label='Machine Learning - Python & Django'
+                  label='Deep-Learning-Python/Django'
                   {...a11yProps(5)}
                 />
-                <Tab label='Android App Development' {...a11yProps(6)} />
-                <Tab label='Data Structures and Algorithms' {...a11yProps(7)} />
+                <Tab label='Android-App-Development' {...a11yProps(6)} />
+                <Tab label='Data-Structures-&-Algorithms' {...a11yProps(7)} />
               </Tabs>
               <TabPanel value={value} index={0}>
                 <div className='content'>
                   {Projects.map(
                     (proj: any) =>
                       proj.type === 'MERN' && (
+                        <Repo key={proj.id} project={proj} />
+                      )
+                  )}
+                </div>
+              </TabPanel>
+              <TabPanel value={value} index={6}>
+                <div className='content'>
+                  {Projects.map(
+                    (proj: any) =>
+                      proj.type === 'DSA' && (
                         <Repo key={proj.id} project={proj} />
                       )
                   )}
@@ -176,16 +186,6 @@ function Content() {
                   {Projects.map(
                     (proj: any) =>
                       proj.type === 'Android' && (
-                        <Repo key={proj.id} project={proj} />
-                      )
-                  )}
-                </div>
-              </TabPanel>
-              <TabPanel value={value} index={6}>
-                <div className='content'>
-                  {Projects.map(
-                    (proj: any) =>
-                      proj.type === 'DSA' && (
                         <Repo key={proj.id} project={proj} />
                       )
                   )}
