@@ -111,6 +111,7 @@ function Content() {
                   {...a11yProps(0)}
                   className='accordion-details'
                 />
+                <Tab label='Data-Structures-&-Algorithms' {...a11yProps(7)} />
                 <Tab label='React/Redux' {...a11yProps(1)} />
                 <Tab label='VanillaJS-&-Node/Express' {...a11yProps(2)} />
                 <Tab label='Pure-HTML5/CSS3 ' {...a11yProps(3)} />
@@ -119,7 +120,7 @@ function Content() {
                   {...a11yProps(5)}
                 />
                 <Tab label='Android-App-Development' {...a11yProps(6)} />
-                <Tab label='Data-Structures-&-Algorithms' {...a11yProps(7)} />
+
               </Tabs>
               <TabPanel value={value} index={0}>
                 <div className='content'>
