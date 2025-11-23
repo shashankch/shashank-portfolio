@@ -36,7 +36,7 @@ function Header() {
     <div className='header-container'>
       <div className='header'>
         <h1>Shashank Chandel</h1>
-        <h2>Software Engineer - FullStack(Backend-Heavy) </h2>
+        <h3>Software Engineer - FullStack(Backend-Heavy) </h3>
 
         <div>
           <h3>Tech Skills</h3>
