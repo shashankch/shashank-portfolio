@@ -7,7 +7,7 @@ function Footer() {
       <div>
         <strong>Created with </strong>
         <img
-          style={{ margin: 0, position: 'relative', top: 7 }}
+          style={{ margin: 0, position: 'relative', top: 5 }}
           src='/static/images/heart.png'
           alt='heart'
         ></img>
@@ -16,9 +16,9 @@ function Footer() {
       <div style={{ textAlign: 'center' }}>
         <a
           href='https://shashankch.github.io/shashankch/'
-          style={{ color: 'white' }}
+          style={{ color: 'blue' }}
         >
-          Visit old site here...
+          Visit old site here
         </a>
       </div>
     </div>
