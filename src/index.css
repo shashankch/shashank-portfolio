@@ -25,6 +25,16 @@ body {
   height: 100vh;
 }
 
+.header h4 {
+  margin-bottom: 8px;   /* reduce spacing under the title */
+  margin-top: 16px;     /* optional: keeps a little breathing room above */
+}
+
+.skill-icons,
+.profile-icons {
+  margin-top: 0;        /* ensure icons don’t add extra top space */
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
