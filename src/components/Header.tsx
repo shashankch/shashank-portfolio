@@ -36,105 +36,89 @@ function Header() {
     <div className='header-container'>
       <div className='header'>
         <h1>Shashank Chandel</h1>
-        <h2>Software Engineer - Full Stack</h2>
+        <h2>Software Engineer - FullStack(Backend-Heavy) </h2>
 
         <div>
           <h3>Tech Skills</h3>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/html5.svg'
-              alt='html5'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/css3.svg'
-              alt='css3'
-            />
-          </a>
-
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/javascript.svg'
-              alt='Javascript'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/typescript.svg'
-              alt='typescript'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/react.svg'
-              alt='React'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/reactquery.svg'
-              alt='Tanstack/React Query'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/mui.svg'
-              alt='mui'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
+            <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
               src='/static/images/springboot.svg'
               alt='spring boot microservices'
             />
-          </a>
-          <a href='https://github.com/shashankch'>
+            </a>   
+           <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
               src='/static/images/mysql.svg'
               alt='mysql'
             />
           </a>
-          <a href='https://github.com/shashankch'>
+          <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
               src='/static/images/mongodb.svg'
               alt='mongodb'
             />
           </a>
-          <a href='https://github.com/shashankch'>
-            <img
-              className='skill-icons'
-              src='/static/images/linux.svg'
-              alt='linux'
-            />
-          </a>
-          <a href='https://github.com/shashankch'>
+          <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
               src='/static/images/docker.svg'
               alt='docker'
             />
           </a>
-          <a href='https://github.com/shashankch'>
+          <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
               src='/static/images/kubernetes.svg'
               alt='kubernetes'
             />
+          </a> 
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/linux.svg'
+              alt='linux'
+            />
           </a>
-          <span>...etc</span>
-          
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/javascript.svg'
+              alt='Javascript'
+            />
+          </a>
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/typescript.svg'
+              alt='typescript'
+            />
+          </a>
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/react.svg'
+              alt='React'
+            />
+          </a>
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/reactquery.svg'
+              alt='Tanstack/React Query'
+            />
+          </a>
+          <a href='https://shashankch.github.io/shashankch/'>
+            <img
+              className='skill-icons'
+              src='/static/images/mui.svg'
+              alt='mui'
+            />
+          </a>
         </div>
+        
         <div>
           <h3>Connect</h3>
           <a href='https://www.linkedin.com/in/shashank0705/'>
@@ -144,14 +128,7 @@ function Header() {
               alt='Linkedin Profile'
             />
           </a>
-          <a href='https://twitter.com/shchande0705'>
-            <img
-              className='profile-icons'
-              src='/static/images/twitter.svg'
-              alt='Twitter Profile'
-            />
-          </a>
-          <a href='mailto:shashakchandel@gmail.com'>
+          <a href='mailto:shashankchandel0705@gmail.com'>
             <img
               className='profile-icons'
               src='/static/images/gmail.svg'
@@ -163,6 +140,13 @@ function Header() {
               className='profile-icons'
               src='/static/images/github.svg'
               alt='Github'
+            />
+          </a>
+          <a href='https://x.com/shchande0705'>
+            <img
+              className='profile-icons'
+              src='/static/images/twitter.svg'
+              alt='X Profile'
             />
           </a>
         </div>
