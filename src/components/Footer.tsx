@@ -13,17 +13,12 @@ function Footer() {
         ></img>
         <strong> by Shashank</strong>
       </div>
-
-      <div style={{ textAlign: 'center' }}>2023-24</div>
-      <div style={{ textAlign: 'center' }}>
-        Like plain old project links style?
-      </div>
       <div style={{ textAlign: 'center' }}>
         <a
           href='https://shashankch.github.io/shashankch/'
-          style={{ color: 'blue' }}
+          style={{ color: 'white' }}
         >
-          Go To Old Site
+          Visit old site here...
         </a>
       </div>
     </div>
