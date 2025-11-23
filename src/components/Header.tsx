@@ -39,7 +39,7 @@ function Header() {
         <h3>Software Engineer - FullStack(Backend-Heavy) </h3>
 
         <div>
-          <h3>Tech Skills</h3>
+          <h4>Tech Skills</h4>
             <a href='https://shashankch.github.io/shashankch/'>
             <img
               className='skill-icons'
@@ -120,7 +120,7 @@ function Header() {
         </div>
         
         <div>
-          <h3>Connect</h3>
+          <h4>Connect</h4>
           <a href='https://www.linkedin.com/in/shashank0705/'>
             <img
               className='profile-icons'
